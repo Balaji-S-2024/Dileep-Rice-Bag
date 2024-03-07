@@ -1,0 +1,39 @@
+/* LandingPage.css */
+.landing-page {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .features {
+    margin-top: 40px;
+  }
+  
+  .feature-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .feature {
+    max-width: 300px;
+  }
+  
+  .feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    margin-top: 40px;
+    font-size: 1.2rem;
+  }
+  
+
+  img{
+    max-width: 200px;
+  }

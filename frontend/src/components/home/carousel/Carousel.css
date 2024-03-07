@@ -1,0 +1,50 @@
+/* Carousel.css */
+.carousel-container{
+  background-color: #189ad3;
+  padding: 10px;
+  max-height: 400px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.slide {
+    border-radius: 5px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #71c7ec;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    font-size: 24px;
+    z-index: 1;
+    color: #107dac;
+  }
+  
+  .slick-prev:hover,
+  .slick-next:hover {
+    cursor: pointer;
+  }
+  
+  .slick-prev {
+    left: 10px;
+  }
+  
+  .slick-next {
+    right: 10px;
+  }
+  
+  .slick-slide:hover {
+    transition: all 0.2s ease; /* Slower transition speed on hover */
+  }
+
+  .carousel-img{
+    border-radius: 4px;
+    max-width: 100%;
+    height: auto;
+  }
+  
