@@ -4,10 +4,10 @@ import './Not_found.css'
 
 function Not_found() {
   return (
-  <>
-    <img src={not_found} alt="" />
+  <div className='n'>
+    <img src={not_found} alt=""/>
     NOT-FOUND
-  </>
+  </div>
   )
 }
 
