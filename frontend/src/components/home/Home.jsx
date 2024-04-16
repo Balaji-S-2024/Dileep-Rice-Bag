@@ -1,9 +1,8 @@
 // Home.js
 import React from 'react';
 import './Home.css';
-import Carousel from './carousel/Carousel';
+import RiceCarousel from './carousel/RiceCarousel';
 import Basmati_Rice from '../../images/Basmati_Rice.jpg'
-import ricecarousel from '../../images/ricecarousel.jpg'
 
 function Home() {
 
@@ -21,7 +20,7 @@ function Home() {
         <h1>Welcome to RiceCo</h1>
         <p>Your one-stop shop for high-quality rice products</p>
       </header>
-      <Carousel images={imagesA} />
+      <RiceCarousel/>
       <section className="features">
         <h2>Our Products</h2>
         <div className="feature-list">
