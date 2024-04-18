@@ -1,29 +1,39 @@
 /* LandingPage.css */
 .landing-page {
     text-align: center;
-    padding: 40px;
+    padding: 50px;
   }
   
-  .header h1 {
+  .h1 {
     font-size: 3rem;
     margin-bottom: 20px;
+    color: green;
   }
+ 
   
   .features {
     margin-top: 40px;
+    
   }
   
   .feature-list {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 60px;
+    
   }
   
   .feature {
     max-width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  .feature:hover {
+    box-shadow: 0 20px 16px 0 rgba(0,0,0,0.2);
   }
   
-  .feature h3 {
+  .h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
   }
@@ -35,5 +45,17 @@
   
 
   img{
-    max-width: 200px;
+    max-width: 300px;
   }
+  .topic{
+    margin: 20px;
+  }
+  h2{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  color: brown;
+  }
+  .top{
+    color: green;
+  }
+  

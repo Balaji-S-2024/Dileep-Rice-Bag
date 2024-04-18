@@ -1,28 +1,23 @@
-.image-container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .image-container img {
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-  }
-  
-  .caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 5px;
-    margin: 0;
-  }
-  
-  .carousel .control-dots,
-  .carousel .thumbs-wrapper {
-    display: none !important;
-  }
+.carousel-container {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  position: relative;
+  width: 1500px;
+  max-width: 1400px;
+ 
+}
+
+.carousel-slide {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.carousel-slide.active {
+  opacity: 1;
+}
+
+.carousel-image {
+  width: 900px;
+  height: 420px;
+}

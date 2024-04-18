@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import logo from '../../images/logo.png';
+import logo from '../../images/originallogo.png';
 import { BiLogoInstagramAlt } from "react-icons/bi";
 import { BsLinkedin } from "react-icons/bs";
 import { FaWhatsapp } from "react-icons/fa";
@@ -14,8 +14,8 @@ function Footer() {
           <b>Address:</b>
           <br/>
           <p className='footer-text'>53/28 Sornanthan Street,</p>
-          <p className='footer-text'>Devakottai - 630302, </p>
-          <p className='footer-text'>Sivagangai, </p>
+          <p className='footer-text'>Uppidamangalam, </p>
+          <p className='footer-text'>Karur-639003, </p>
           <p className='footer-text'>Tamilnadu.</p>
         </div>
         <div className="email"><a href="mailto:lpfuture369@gmail.com"  className='footer-text'><b>Email:</b><br/>lpfuture369@gmail.com</a></div>

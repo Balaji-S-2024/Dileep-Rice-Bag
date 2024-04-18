@@ -1,40 +1,33 @@
-// Carousel.js
 import React, { useState, useEffect } from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import './Carousel.css';
+import './Carousel.css'; // Assuming you have a CSS file for styling
 import img1 from '../../../images/ricecar.jpg';
 import img2 from '../../../images/farmer.jpg';
+import img3 from '../../../images/farmer.jpg';
+import img4 from '../../../images/farmer.jpg';
+import img5 from '../../../images/farmer.jpg';
 
-const RiceCarousel = () => {
+const images = [img1, img2,img3,img4,img5];
 
-  const [activeSlide, setActiveSlide] = useState(0);
+const MyCarousel = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
-    const intervalId = setInterval(() => {
-      setActiveSlide((prevSlide) => (prevSlide + 1) % totalSlides);
-    }, 3000); // Change slide every 250 milliseconds
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 2000); // Change image every 2 seconds
 
-    return () => {
-      clearInterval(intervalId); // Clean up the interval on component unmount
-    };
-  }, []); // Run this effect only once when the component mounts
-
-  const totalSlides = 2;
-
+    return () => clearInterval(interval);
+  }, []);
 
   return (
-    <Carousel selectedItem={activeSlide} onChange={setActiveSlide} emulateTouch={true}>
-      <div key="slide1" className="image-container">
-        <img className='img' src={img1} alt="Image 1" />
-        <p className="caption">Caption 1</p>
-      </div>
-      <div key="slide2" className="image-container">
-        <img className='img' src={img2} alt="Image 2" />
-        <p className="caption">Caption 2</p>
-      </div>
-    </Carousel>
+    <div className="carousel-container">
+      {images.map((image, index) => (
+        <div key={index} className={`carousel-slide ${index === currentIndex ? 'active' : ''}`}>
+          <img className="carousel-image" src={image} alt={`Image ${index + 1}`} />
+        </div>
+      ))}
+    </div>
   );
 };
 
-export default RiceCarousel;
+export default MyCarousel;

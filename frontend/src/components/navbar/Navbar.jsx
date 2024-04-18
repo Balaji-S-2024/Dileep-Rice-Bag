@@ -1,5 +1,6 @@
 import React from 'react'
-import logo from '../../images/logo50.jpg'
+import logo from '../../images/navlogo.png'
+
 import './Navbar.css'
 
 function Navbar() {
@@ -7,7 +8,8 @@ function Navbar() {
   return (
     <nav className='container'>
       <img src={logo} alt="logo" className='logo' />
-      <p className='name'>Dileep & co</p>
+      
+     
       <ul className='link-container'>
       <a href="/home"><li>Home</li></a>
       <a href="/rice-items"><li>Rice Items</li></a>

@@ -3,14 +3,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #005073;
-  color: #ffffff;
-  padding: 10px;
+  background-color: #fff4c4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-right: 10px;
 }
 
 .logo {
-  border-radius: 3%;
-  border: 2px solid #ffffff;
+  width: 250px; /* Set the width */
+  height: auto;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 ul {
@@ -20,13 +23,22 @@ ul {
 }
 
 ul li {
-  display: inline;
-  margin-left: 20px; 
-  border-radius: 3px;
-  background-color: #189ad3;
+  background-color: #bd9100; /* Green */
+  border: none;
   color: white;
-  padding: 10px 20px;
-  border: 2px solid #ffffff;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:  8px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  
+}
+ul li:hover {
+  box-shadow: 0 1px 10px 0 rgb(0, 0, 0);
 }
 
 .name {
