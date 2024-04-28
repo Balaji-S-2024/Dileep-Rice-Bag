@@ -1,0 +1,64 @@
+.contact-us {
+    max-width: 800px; /* Set maximum width for better readability */
+    margin: 0 auto; /* Center align the content */
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  .contact-us h1 {
+    font-size: 36px; /* Increase heading font size */
+    color: #333; /* Set heading color */
+  }
+  
+  .contact-us p {
+    font-size: 18px; /* Set paragraph font size */
+    color: #555; /* Set text color */
+    line-height: 1.6; /* Set line height for better readability */
+  }
+  
+  .contact-info {
+    margin-top: 30px; /* Add space between sections */
+  }
+  
+  .contact-info h2 {
+    font-size: 24px; /* Increase heading font size */
+    color: #333; /* Set heading color */
+  }
+  
+  .contact-info p {
+    font-size: 16px; /* Set font size for contact information */
+    line-height: 1.6; /* Set line height for better readability */
+  }
+  
+  .contact-form {
+    margin-top: 30px; /* Add space between contact information and form */
+  }
+  
+  .contact-form label {
+    display: block; /* Make labels block elements for better alignment */
+    margin-bottom: 5px; /* Add space between labels and inputs */
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%; /* Make inputs and textarea full width */
+    padding: 10px; /* Add padding for better appearance */
+    margin-bottom: 10px; /* Add space between inputs */
+  }
+  
+  .contact-form textarea {
+    height: 150px; /* Set textarea height */
+  }
+  
+  .contact-form button {
+    background-color: #f8c728; /* Set button background color */
+    color: #fff; /* Set button text color */
+    padding: 10px 20px; /* Add padding to button */
+    border: none; /* Remove border */
+    cursor: pointer; /* Add cursor pointer on hover */
+    font-size: 16px; /* Set button font size */
+  }
+  
+  .contact-form button:hover {
+    background-color: #e0b524; /* Change button background color on hover */
+  }
+  
