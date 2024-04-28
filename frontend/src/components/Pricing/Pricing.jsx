@@ -7,21 +7,21 @@ function PricingPage() {
       id: 1,
       name: 'Premium Basmati Rice',
       description: 'Finest quality Basmati rice for delicious meals',
-      price: 29.99,
+      price: 2999,
       imageUrl: Basmati_Rice, 
     },
     {
       id: 2,
       name: 'Long Grain White Rice',
       description: 'Versatile long-grain rice for everyday cooking',
-      price: 19.99,
+      price: 1999,
       imageUrl: Basmati_Rice, 
     },
     {
       id: 3,
       name: 'Brown Rice',
       description: 'Healthy whole grain rice with a nutty flavor',
-      price: 24.99,
+      price: 2499,
       imageUrl: Basmati_Rice, 
     },
     
@@ -37,7 +37,7 @@ function PricingPage() {
             <div className="rice-bag-details">
               <h2>{bag.name}</h2>
               <p className="rice-bag-description">{bag.description}</p>
-              <p className="rice-bag-price">${bag.price.toFixed(2)}</p>
+              <p className="rice-bag-price">₹ {bag.price.toFixed(2)}</p>
               <button className="add-to-cart-button">Add to Cart</button>
             </div>
           </div>
