@@ -35,7 +35,7 @@ To run the project locally, follow these steps:
 ## Contributing
 
 Contributions are welcome! If you find any bugs or want to suggest new features, please open an issue or submit a pull request.
-[Kavinkumar K](https://github.com/Kavin1421/)
+[Kavinkumar K](https://github.com/Kavin1421/) And 
 [KavinRaj N](https://github.com/KAVINRAJ1103)
 ## License
 
@@ -43,5 +43,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgements
 
-- Special thanks to [XYZ Company](https://godevs.me/GodevsPortfolio/) for providing inspiration and guidance for this project.
+- Special thanks to [Godevsteam](https://godevs.me/GodevsPortfolio/) for providing inspiration and guidance for this project.
 
