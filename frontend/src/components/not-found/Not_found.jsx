@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import not_found from '../../images/not-foundd.jpg'
 import './Not_found.css'
 

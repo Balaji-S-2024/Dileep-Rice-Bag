@@ -1,11 +1,14 @@
 import { useState, useEffect } from 'react';
-import './FoodAndFestivalOffers.css'; // Import CSS file for styling
+import { Link } from 'react-router-dom';
+import './FoodAndFestivalOffers.css'; 
 import sample from '../../images/farmer.jpg'
 function FoodAndFestivalOffers() {
+
+ 
   const [timer, setTimer] = useState(2592000); // Initial timer value in seconds (30 days)
 
   // Calculate days, hours, minutes, and seconds
-  const days = Math.floor(timer / (24 * 3600));
+   const days = Math.floor(timer / (24 * 3600));
   const hours = Math.floor((timer % (24 * 3600)) / 3600);
   const minutes = Math.floor((timer % 3600) / 60);
   const seconds = timer % 60;
@@ -53,7 +56,12 @@ function FoodAndFestivalOffers() {
             <div className="offer-details">
               <h2>{offer.name}</h2>
               <p className="offer-description">{offer.description}</p>
-              <button className="view-offer-button">View Offer</button>
+              <Link
+            to={`/offer/${offer.id}/${encodeURIComponent(offer.imageUrl)}/${encodeURIComponent(offer.name)}/${encodeURIComponent(offer.description)}`}
+            className="view-offer-button"
+          >
+            View Offer
+          </Link>
             </div>
           </div>
         ))}

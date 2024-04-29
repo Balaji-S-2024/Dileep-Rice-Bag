@@ -9,6 +9,7 @@ import Pricing from './components/Pricing/Pricing';
 import CattleFeed from './components/CattleFeed/CattleFeed';
 import RiceItems from './components/RiceItems/RiceItems';
 import FoodAndFestivalOffers from './components/FoodAndFestivalOffers/FoodAndFestivalOffers';
+import OfferDetails from './components/FoodAndFestivalOffers/OfferDetails';
 import Not_found from './components/not-found/Not_found';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/cattle-items" element={<CattleFeed />} />
         <Route path="/rice-items" element={<RiceItems />} />
         <Route path="/foods" element={<FoodAndFestivalOffers />} />
+        <Route path="/offer/:id/:imageUrl/:name/:description" element={<OfferDetails />} />
         <Route path="/*" element={<Not_found />} />
       </Routes>
       <Footer />
