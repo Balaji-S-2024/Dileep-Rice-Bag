@@ -1,4 +1,4 @@
-// import React from 'react'
+// import React from 'react' 
 import logo from '../../images/navlogo.png'
 
 import './Navbar.css'
@@ -23,5 +23,5 @@ function Navbar() {
 
   )
 }
-
+ 
 export default Navbar
