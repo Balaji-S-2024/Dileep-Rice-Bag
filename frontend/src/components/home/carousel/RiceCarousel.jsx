@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './Carousel.css'; // Assuming you have a CSS file for styling
 import img1 from '../../../images/ricecar.jpg';
 import img2 from '../../../images/farmer.jpg';

@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import './ContactUs.css'; 
 
 function ContactUs() {
@@ -7,7 +7,7 @@ function ContactUs() {
       <h1>Contact Us</h1>
       <p>
         Have questions or inquiries? Reach out to us using the contact information below, or fill out the form
-        and we'll get back to you as soon as possible.
+        and we will get back to you as soon as possible.
       </p>
       <div className="contact-info">
         <h2>Contact Information:</h2>

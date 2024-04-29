@@ -1,140 +1,140 @@
 // import React from 'react';
-import './Pricing.css'; 
-import Basmati_Rice from '../../images/Basmati_Rice.jpg'
-function PricingPage() {
+import './CattleFeed.css'; 
+import RiceBag from '../../images/c1.jpg'
+function CattleFeed() {
   const riceBags = [
     {
       id: 1,
       name: 'Premium Basmati Rice',
       description: 'Finest quality Basmati rice for delicious meals',
       price: 2999,
-      imageUrl: Basmati_Rice, 
+      imageUrl: RiceBag, 
     },
     {
       id: 2,
       name: 'Long Grain White Rice',
       description: 'Versatile long-grain rice for everyday cooking',
       price: 1999,
-      imageUrl: Basmati_Rice, 
+      imageUrl: RiceBag, 
     },
     {
       id: 3,
       name: 'Brown Rice',
       description: 'Healthy whole grain rice with a nutty flavor',
       price: 2499,
-      imageUrl: Basmati_Rice, 
+      imageUrl: RiceBag, 
     },
     {
       id: 3,
       name: 'Brown Rice',
       description: 'Healthy whole grain rice with a nutty flavor',
       price: 2499,
-      imageUrl: Basmati_Rice, 
+      imageUrl: RiceBag, 
     },
     {
       id: 3,
       name: 'Brown Rice',
       description: 'Healthy whole grain rice with a nutty flavor',
       price: 2499,
-      imageUrl: Basmati_Rice, 
+      imageUrl: RiceBag, 
     },
     {
       id: 3,
       name: 'Brown Rice',
       description: 'Healthy whole grain rice with a nutty flavor',
       price: 2499,
-      imageUrl: Basmati_Rice, 
+      imageUrl: RiceBag, 
     },
     {
       id: 3,
       name: 'Brown Rice',
       description: 'Healthy whole grain rice with a nutty flavor',
       price: 2499,
-      imageUrl: Basmati_Rice, 
+      imageUrl: RiceBag, 
     },
     {
       id: 3,
       name: 'Brown Rice',
       description: 'Healthy whole grain rice with a nutty flavor',
       price: 2499,
-      imageUrl: Basmati_Rice, 
+      imageUrl: RiceBag, 
     },
     {
       id: 3,
       name: 'Brown Rice',
       description: 'Healthy whole grain rice with a nutty flavor',
       price: 2499,
-      imageUrl: Basmati_Rice, 
+      imageUrl: RiceBag, 
     },
     {
       id: 3,
       name: 'Brown Rice',
       description: 'Healthy whole grain rice with a nutty flavor',
       price: 2499,
-      imageUrl: Basmati_Rice, 
+      imageUrl: RiceBag, 
     },
     {
       id: 3,
       name: 'Brown Rice',
       description: 'Healthy whole grain rice with a nutty flavor',
       price: 2499,
-      imageUrl: Basmati_Rice, 
+      imageUrl: RiceBag, 
     },
     {
       id: 3,
       name: 'Brown Rice',
       description: 'Healthy whole grain rice with a nutty flavor',
       price: 2499,
-      imageUrl: Basmati_Rice, 
+      imageUrl: RiceBag, 
     },
     {
       id: 3,
       name: 'Brown Rice',
       description: 'Healthy whole grain rice with a nutty flavor',
       price: 2499,
-      imageUrl: Basmati_Rice, 
+      imageUrl: RiceBag, 
     },
     {
       id: 3,
       name: 'Brown Rice',
       description: 'Healthy whole grain rice with a nutty flavor',
       price: 2499,
-      imageUrl: Basmati_Rice, 
+      imageUrl: RiceBag, 
     },
     {
       id: 3,
       name: 'Brown Rice',
       description: 'Healthy whole grain rice with a nutty flavor',
       price: 2499,
-      imageUrl: Basmati_Rice, 
+      imageUrl: RiceBag, 
     },
     {
       id: 3,
       name: 'Brown Rice',
       description: 'Healthy whole grain rice with a nutty flavor',
       price: 2499,
-      imageUrl: Basmati_Rice, 
+      imageUrl: RiceBag, 
     },
     {
       id: 3,
       name: 'Brown Rice',
       description: 'Healthy whole grain rice with a nutty flavor',
       price: 2499,
-      imageUrl: Basmati_Rice, 
+      imageUrl: RiceBag, 
     },
     {
       id: 3,
       name: 'Brown Rice',
       description: 'Healthy whole grain rice with a nutty flavor',
       price: 2499,
-      imageUrl: Basmati_Rice, 
+      imageUrl: RiceBag, 
     },
     
   ];
 
   return (
     <div className="pricing-page">
-      <h1>Our Rice Bags</h1>
+      <h1>Our Cattle Feeds</h1>
       <div className="rice-bag-grid">
         {riceBags.map((bag) => (
           <div className="rice-bag-card" key={bag.id}>
@@ -152,4 +152,4 @@ function PricingPage() {
   );
 }
 
-export default PricingPage;
+export default CattleFeed;

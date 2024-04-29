@@ -1,0 +1,66 @@
+.food-and-festival-offers {
+    text-align: center;
+  }
+  
+  .timer {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .offer-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .offer-card {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .offer-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .offer-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .offer-details {
+    margin-top: 10px;
+  }
+  
+  .offer-details h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .offer-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .view-offer-button {
+    background-color: #f8c728;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-offer-button:hover {
+    background-color: #e0b524;
+  }
+  

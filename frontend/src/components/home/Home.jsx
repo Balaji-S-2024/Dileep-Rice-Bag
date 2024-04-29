@@ -1,5 +1,5 @@
 // Home.js
-import React from 'react';
+// import React from 'react';
 import './Home.css';
 import RiceCarousel from './carousel/RiceCarousel';
 import Basmati_Rice from '../../images/Basmati_Rice.jpg'
@@ -7,11 +7,11 @@ import Basmati_Rice from '../../images/Basmati_Rice.jpg'
 function Home() {
 
 
-  const imagesA = [
-    {image:"../../../images/ricecarousel.jpg"}, 
-    {image:"../../../images/ricecarousel.jpg"}, 
-    {image:"../../../images/ricecarousel.jpg"}
-  ];
+  // const imagesA = [
+  //   {image:"../../../images/ricecarousel.jpg"}, 
+  //   {image:"../../../images/ricecarousel.jpg"}, 
+  //   {image:"../../../images/ricecarousel.jpg"}
+  // ];
 
 
   return (

@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import './AboutUs.css'; // Import CSS file for styling
 
 function AboutUs() {
