@@ -34,32 +34,40 @@
     line-height: 1.5;
   
   }
-  @media (max-width: 768px) {
-    .footer {
-      flex-direction: column; /* Stack divs vertically on smaller screens */
-      align-items: center;
-    }
-    .lplogo{
-      width: 80px;
-      height:80px;
-     margin-left: 40px;
-      
-    }
-    .footer-left{
-      margin-bottom: 50px;
-    }
-    .footer-center{
-      margin: 0 0 50px 0;
-    }
+ /* Small screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    text-align: center;
+    padding: 5% 5%;
   }
- @media (min-width:769px) and (max-width: 1000px) {
-      .footer-center{
-        margin-left:80px ;
-         }
-        
+
+  .lplogo {
+    width: 80px; /* Adjust logo width for smaller screens */
+    height: 80px; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Add spacing below logo */
+  }
+
+  .socials {
+    margin: 10px; /* Increase margin around social icons */
+    font-size: 20px; /* Decrease font size for smaller screens */
   }
   
-  a{
-    color: white;
-    text-decoration: none;
+  .address {
+    font-size: 0.9rem; /* Decrease font size for address */
   }
+}
+
+/* Medium screens (769px to 1000px) */
+@media (min-width: 769px) and (max-width: 1000px) {
+  .footer-center {
+    margin-left: 80px; /* Adjust margin for center content */
+  }
+}
+
+/* General Styles */
+a {
+  color: white;
+  text-decoration: none;
+}

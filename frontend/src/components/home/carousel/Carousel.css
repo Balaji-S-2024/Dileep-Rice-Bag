@@ -3,9 +3,9 @@
   flex-direction: row;
   overflow: hidden;
   position: relative;
-  width: 1500px;
-  max-width: 1400px;
- 
+  width: 100%; /* Use percentage width for responsiveness */
+  max-width: 1400px; /* Set a maximum width */
+  margin: 0 auto; /* Center the container horizontally */
 }
 
 .carousel-slide {
@@ -18,6 +18,14 @@
 }
 
 .carousel-image {
-  width: 900px;
-  height: 420px;
+  width: 100%; /* Make the image responsive */
+  max-width: 900px; /* Set maximum width for the image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 768px) {
+  .carousel-image {
+    max-width: 100%; /* Adjust image width to fit smaller screens */
+  }
 }

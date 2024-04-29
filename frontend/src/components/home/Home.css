@@ -1,61 +1,79 @@
 /* LandingPage.css */
-.landing-page {
-    text-align: center;
-    padding: 50px;
-  }
-  
-  .h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-    color: green;
-  }
- 
-  
-  .features {
-    margin-top: 40px;
-    
-  }
-  
-  .feature-list {
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-    
-  }
-  
-  .feature {
-    max-width: 300px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 40%;
-  }
-  .feature:hover {
-    box-shadow: 0 20px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  .h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-  
-  .footer {
-    margin-top: 40px;
-    font-size: 1.2rem;
-  }
-  
 
-  img{
-    max-width: 300px;
-  }
-  .topic{
-    margin: 20px;
-  }
-  h2{
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* Base Styles */
+.landing-page {
+  text-align: center;
+  padding: 50px;
+}
+
+.h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: green;
+}
+
+.features {
+  margin-top: 40px;
+}
+
+.feature-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow features to wrap to new lines */
+  justify-content: center;
+  gap: 30px; /* Adjust gap between features */
+}
+
+.feature {
+  max-width: 300px;
+  width: 100%; /* Set feature width to 100% for responsiveness */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.feature:hover {
+  box-shadow: 0 20px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.footer {
+  margin-top: 40px;
+  font-size: 1.2rem;
+}
+
+img {
+  max-width: 100%; /* Ensure images are responsive within their containers */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.topic {
+  margin: 20px;
+}
+
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 40px;
   color: brown;
+}
+
+.top {
+  color: green;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+  .feature {
+    max-width: 100%; /* Adjust feature width for smaller screens */
   }
-  .top{
-    color: green;
+
+  .h1 {
+    font-size: 2.5rem; /* Decrease heading font size */
   }
-  
+
+  .feature-list {
+    gap: 20px; /* Reduce gap between features on smaller screens */
+  }
+}
